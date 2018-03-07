@@ -1,0 +1,28 @@
+DROP DATABASE IF EXISTS Bamazon;
+
+CREATE DATABASE Bamazon;
+
+USE Bamazon;
+
+CREATE TABLE Products(
+    ItemID MEDIUMINT AUTO_INCREMENT NOT NULL,
+    ProductName VARCHAR(100) NOT NULL,
+    DepartmentName VARCHAR(50) NOT NULL,
+    Price DECIMAL(10,2) NOT NULL,
+    StockQuantity INT(10) NOT NULL,
+    primary key(ItemID)
+);
+
+select * from Products;
+
+INSERT INTO Products(ProductName,DepartmentName,Price,StockQuantity)
+VALUES ("Jordan 1","CLOTHING",200.00,130),
+    ("NIKE REACT","CLOTHING",150.99,200),
+    ("LIGO SARDINES","GROCERY",4.50,40),
+    ("PIPPENS SHOES","CLOTHING",165.00,4),
+    ("DENNIS RODMAN Jeans","CLOTHING",154.25,38),
+    ("BULLS JERSEYS","SPORTS & OUTDOORS",99.99,23),
+    ("MICHAEL JACKSON's CONCERT","ENTERTAINMENT",55.00,88),
+    ("FASt and the FURIOUS","ENTERTAINMENT",45.50,5),
+    ("OPRAH DVDs","ENTERTAINMENT",60.50,25),
+    ("NBA LIVE","ENTERTAINMENT",29.95,23);
