@@ -15,3 +15,7 @@ OTHERWISE it will say INSUFFICIENT QUANTITY
 NOTE:
 
 instead of video the programmer chose to take SCREENSHOTS of the TWO STEPS PROCESS OF THE BAMAZONCUSTOMER.js
+
+https://github.com/obuenavidez/Bamazon/blob/master/image1.png
+https://github.com/obuenavidez/Bamazon/blob/master/image2.png
+https://github.com/obuenavidez/Bamazon/blob/master/image3.png
